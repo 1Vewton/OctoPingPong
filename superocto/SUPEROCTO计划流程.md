@@ -1,5 +1,7 @@
 # SUPER O C T O 实施计划流程
 
+> **English version:** [SUPEROCTO Implementation Plan Workflow](./SUPEROCTO%20Implementation%20Plan%20Workflow.en.md)
+
 > **项目定位**：作为 Octo 项目的**并行技术探索分支**，利用 3D 打印人造木（Wood PLA）与晶格结构，实现极致轻量乒乓球拍的一体化设计与快速迭代。
 > **规则状态**：❌ 不符 ITTF 竞赛规则（见[SUPEROCTO > 第 1 节](../SUPEROCTO.md#第%201%20节)），定位为训练拍、技术原型与展示项目。
 > **总目标**：在 3–5 轮迭代内，实现成品总重 ≤115 g 的 3D 打印一体化球拍，并评估其与方案一/二/三的手感差异。
