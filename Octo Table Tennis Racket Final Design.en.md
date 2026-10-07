@@ -109,11 +109,9 @@ Based on the measured data from [Wood and Fiber Material Performance Test Report
 | Bare racket face (incl. glue) | 30.6–31.6 |
 | Handle (advanced scheme size M, Balsa + cork covering) | 13–15 |
 | Handle screw interface | 1.5 |
-| Counterweight-chamber structure | 2 |
+| Counterweight-chamber structure (reserved interface, no counterweight fitted) | 2 |
 | Surface coating (2–3 coats of polyurethane) | 2–3 |
-| **Blade total weight (excluding counterweight rod)** | **49–53** |
-| Counterweight rod W1 (brass, Φ8 × 25 mm) | 9 |
-| **Blade total weight (including counterweight)** | **58–62** |
+| **Blade total weight (no counterweight)** | **49–53** |
 
 > **Experimental verification**: the data in Section 9.3 of the test report confirm that the above weight budget is consistent with the measured densities, with a correction of only 1–2 g upward, which does not affect the feasibility of the scheme.
 
@@ -121,18 +119,16 @@ Based on the measured data from [Wood and Fiber Material Performance Test Report
 
 | Component | Weight (g) | Remarks |
 | :--- | :------: | :--- |
-| Blade (incl. counterweight) | 58–62 | Within the 55–70 g target |
+| Blade (no counterweight) | 49–53 | Slightly below the 55–70 g target (in fact lighter) |
 | Forehand rubber | 36 | Lightweight rubber, 1.5 mm sponge |
 | Backhand rubber | 36 | Lightweight rubber, 1.5 mm sponge |
 | Glue (rubber bonding) | 3 | |
-| **Total weight of finished racket** | **133–137** | Close to the upper target limit (110–130 g) |
+| **Total weight of finished racket** | **124–128** | Within the 110–130 g target range |
 
 **Room for weight optimisation**:
 
-- To keep strictly within 130 g, the counterweight rod may be removed (W0 cork plug), reducing
-  the finished racket to **124–128 g**.
-- Alternatively, an ultra-light scheme may be adopted: the Scheme-1 structure (3-ply all-wood,
-  no fibre), reducing the finished racket to **111–119 g**.
+- For further weight reduction, an ultra-light scheme may be adopted: the Scheme-1 structure
+  (3-ply all-wood, no fibre), reducing the finished racket to **111–119 g**.
 
 ---
 
@@ -234,9 +230,9 @@ the bonding-interface strength is fully adequate.
 
 ## 6 Handle Design
 
-### 6.1 Recommended Scheme: Advanced Scheme (Interchangeable Handle + Counterweight Chamber)
+### 6.1 Recommended Scheme: Advanced Scheme (Interchangeable Handle, No Counterweight)
 
-Based on the comprehensive analysis of [Slim-Handle and Adjustable Handle Design Report](./%E9%98%B6%E6%AE%B52-%E8%B0%83%E7%A0%94%E4%BB%A5%E5%8F%8A%E6%9D%90%E6%96%99%E5%87%86%E5%A4%87/Design%20Report%20on%20Slim-Handle%20and%20Adjustable%20Counterweight%20and%20Length%20Handles.en.md), the **advanced scheme**—a modular interchangeable handle plus a built-in counterweight chamber in the handle—is recommended as the final scheme.
+Based on the comprehensive analysis of [Slim-Handle and Adjustable Handle Design Report](./%E9%98%B6%E6%AE%B52-%E8%B0%83%E7%A0%94%E4%BB%A5%E5%8F%8A%E6%9D%90%E6%96%99%E5%87%86%E5%A4%87/Design%20Report%20on%20Slim-Handle%20and%20Adjustable%20Counterweight%20and%20Length%20Handles.en.md), the **advanced scheme**—a modular interchangeable handle (S/M/L three options)—is recommended as the final scheme; **the final product is not fitted with any counterweight**, and the handle length and cross-section follow the ergonomic values.
 
 | Component | Specification | Design basis |
 | :--- | :--- | :------- |
@@ -246,39 +242,30 @@ Based on the comprehensive analysis of [Slim-Handle and Adjustable Handle Design
 | Cross-sectional shape | Elliptical (reduced-size FL) | Balances forehand/backhand switching smoothness |
 | Handle-body material | Balsa (lightweight) + Ayous interface end | Densities verified in Experiment 1: Balsa 0.15, Ayous 0.35 g/cm³ |
 | Surface covering | Cork sheet (1.5 mm) | Friction coefficient 0.40–0.55, anti-slip and sweat-absorbing |
-| Counterweight method | Scheme F: counterweight chamber at the handle end (Φ8 × 25 mm) | M10 threaded cap, interchangeable counterweight rods |
+| Counterweight method | Not used (no counterweight in the final product) | Lightweighting and the short handle give light handling |
 
-### 6.2 Counterweight-Rod Specifications
+### 6.2 Verification of the Centre-of-Gravity Calculation
 
-| Model | Material | Weight | CG effect (distance from racket top) | CG percentage | Recommended use |
-| :--- | :--- | :--: | :---------------: | :--------: | :------- |
-| W0 | Cork (empty) | ~1 g | ~109 mm | 48.2 % | Lightest configuration, close to standard CG |
-| W1 | Brass | ~9 g | ~126 mm | **55.5 %** | ⭐ **Recommended**: effectively shifts the CG rearward |
-| W2 | Stainless steel | ~8 g | ~124 mm | 54.8 % | Alternative, slightly lighter than brass |
-| W3 | Lead (encapsulated and sealed) | ~12 g | ~131 mm | 57.5 % | Extreme rearward CG shift (observe safety precautions) |
-
-### 6.3 Verification of the Centre-of-Gravity Calculation
-
-Calculated for the typical configuration of the advanced scheme:
+Calculated for the typical configuration of the advanced scheme (**no counterweight rod**):
 
 | Component | Mass (g) | CG distance from racket top (mm) | Moment (g·mm) |
 | :--- | :------: | :-------------: | :---------: |
 | Bare racket face | 31.6 | 78.5 | 2,481 |
-| Handle + counterweight chamber | 14.5 | 192.5 | 2,791 |
-| Counterweight W1 (brass) | 9.0 | 222.5 | 2,003 |
-| **Total** | **55.1** | — | **7,275** |
+| Handle + counterweight chamber (empty) | 14.5 | 192.5 | 2,791 |
+| **Total** | **46.1** | — | **5,272** |
 
 Overall CG position:
 
-$$x_{\text{CG}} = \frac{7,275}{55.1} = 132.1\ \text{mm}$$
+$$x_{\text{CG}} = \frac{5,272}{46.1} = 114.4\ \text{mm}$$
 
 Total racket length $L_{\text{total}} = 157 + 68 = 225\ \text{mm}$:
 
-$$\frac{132.1}{225} = 58.7\ \% \text{ (from the racket top)}$$
+$$\frac{114.4}{225} = 50.8\ \% \text{ (from the racket top)}$$
 
-**Conclusion**: after counterweighting, the CG lies at 58.7 % of the total length, markedly
-biased towards the handle, far lower than the moment of inertia of a standard shakehand racket
-(46 %–50 %).
+**Conclusion**: without a counterweight the CG lies at about 50.8 % of the total length, slightly
+biased towards the handle (a standard shakehand racket is 46 %–50 %). Since the final product is
+not fitted with a counterweight, any further rearward shift (>52 %) can be achieved by using a
+heavier hardwood handle.
 
 ---
 
@@ -338,15 +325,14 @@ Step 7: Surface finishing
   └ 2–3 coats of polyurethane varnish, each coat thin, with light sanding using #600 sandpaper in between
   └ Handle area: cork sheet (1.5 mm) + woodworking glue
 
-Step 8: Counterweighting and assembly
-  └ Screw in counterweight rod W1 (brass, recommended), or W0 (no counterweight)
-  └ Modular handle: fastened with M3 screws (torque 0.5–0.8 N·m)
+Step 8: Assembly
+  └ Fit the modular handle: fastened with M3 screws (torque 0.5–0.8 N·m)
   └ Attach the rubbers → leave to cure ≥24 h
 
 Step 9: Quality inspection
-  └ Weighing: blade weight 58–62 g (incl. counterweight), finished-racket total weight 133–137 g
+  └ Weighing: blade weight 49–53 g (no counterweight), finished-racket total weight 124–128 g
   └ Thickness: caliper check of total thickness 5.68 ± 0.15 mm
-  └ CG: balance point 130–135 mm from the racket top (58 %–60 % of the total length)
+  └ CG: balance point about 114 mm from the racket top (about 51 % of the total length)
   └ Appearance: layer-alignment deviation ≤0.5 mm, no glue overflow
 ```
 
@@ -357,7 +343,6 @@ Step 9: Quality inspection
 | Wood cutting/sanding | N95 dust mask + safety goggles + cut-resistant gloves | [Experimental Safety Instructions](./Experimental%20Safety%20Instructions.en.md) 3.1.1 / 3.1.2 |
 | Carbon-fibre/ALC cutting | Safety goggles + dust mask + long-sleeved work clothes | Experimental Safety Instructions 3.2.1 |
 | Epoxy mixing | Nitrile gloves + ventilated environment | Experimental Safety Instructions 3.3.1 |
-| Counterweight fabrication (metal) | Safety goggles + dust mask (if sanding is involved) | Experimental Safety Instructions 2.2 |
 
 ---
 
@@ -367,9 +352,9 @@ Step 9: Quality inspection
 
 | Indicator | Predicted value | Comparison with standard racket | Basis |
 | :--- | :----: | :----------: | :---- |
-| Blade weight | 58–62 g (incl. counterweight) | 82–95 g (−35 %) | Measured-density-corrected budget |
-| Finished-racket total weight | 133–137 g (incl. rubbers) | 170–200 g (−30 %) | Measured-density-corrected budget |
-| CG position | 58 %–60 % of total length from the racket top | 46 %–50 % (marked rearward shift) | Calculation in §7 of the slim-handle report |
+| Blade weight | 49–53 g (no counterweight) | 82–95 g (about −42 %) | Measured-density-corrected budget |
+| Finished-racket total weight | 124–128 g (incl. rubbers) | 170–200 g (about −32 %) | Measured-density-corrected budget |
+| CG position | about 114 mm from the racket top (about 51 % of total length) | 46 %–50 % (slightly handle-biased) | Section 6.2 above |
 | Blade thickness | 5.68 mm | 5.5–7.0 mm (moderate) | Scheme-3 structural design |
 | Handle length | 60–75 mm (three interchangeable options) | 100 mm (−25 % to −40 %) | Ergonomic derivation |
 
@@ -385,8 +370,9 @@ Step 9: Quality inspection
 
 ### 9.3 Expected Subjective Feel
 
-- **Control**: with the CG shifted rearward to 58 %–60 % of the total length, the moment of
-  inertia is markedly reduced and the swing is agile, suitable for users with a short arm span.
+- **Control**: with the CG at about 51 % of the total length and a much lower total mass, the
+  swing moment of inertia is far below that of a standard racket, so the swing is agile and suits
+  users with a short arm span.
 - **Power feedback**: the ALC fibre layer gives a clear sense of acceleration when force is
   applied, and performs well when borrowing force with light effort.
 - **Dwell feel**: the ALC + Balsa blade combination provides a medium-to-slightly-long dwell
@@ -409,7 +395,6 @@ Step 9: Quality inspection
 | Handle | Balsa strip (30×30×100 mm) | 2 strips | 5–10 | 10–20 |
 | | Cork sheet (1.5–2.0 mm) | 2 sheets | 5–15 | 10–30 |
 | | M3 screws + locating pins (interchangeable handle) | 2 sets | 2–5 | 4–10 |
-| | Counterweight-rod material (brass rod Φ8 mm) | — | 5–10 | 5–10 |
 | Auxiliary | PVA glue (250 ml) | 1 bottle | 15–25 | 15–25 |
 | | Epoxy AB glue (50 g) | 1 set | 20–40 | 20–40 |
 | | Polyurethane varnish | 1 small bottle | 15–30 | 15–30 |
@@ -451,7 +436,7 @@ Phase 2: Main fabrication of Scheme 3 (5+2 ALC fibre)
 └ Basis: Experiment 6 ALC-fibre performance verification ✅
 
 Phase 3: Handle-module fabrication
-├ Objective: fabricate the S/M/L interchangeable handles + counterweight rods
+├ Objective: fabricate the S/M/L interchangeable handles
 ├ Budget: 20–70 CNY
 ├ Duration: 2–3 days
 └ Basis: §6.2 advanced scheme design in the slim-handle report
@@ -480,7 +465,6 @@ Phase 4: Final assembly and testing
 | 7 | **PVA glue** | 250 ml | 1 bottle | 15–25 CNY | Offline/Taobao |
 | 8 | **Epoxy AB glue** | ~50 g | 1 set | 20–40 CNY | Hardware store/Taobao |
 | 9 | **M3 countersunk screws** | 12 mm long | 4 | 2 CNY | Hardware store |
-| 10 | **Brass rod** | Φ8 × 50 mm (counterweight rod) | 1 length | 5–10 CNY | Hardware store |
 
 ### 12.2 Tools (one-time investment)
 
@@ -500,11 +484,11 @@ Phase 4: Final assembly and testing
 
 | Parameter | Standard baseline | Octo final design | Change |
 | :--- | :------: | :-----------: | :------: |
-| **Total weight of finished racket** | 170–200 g | **124–137 g** | −30 % to −38 % ✅ |
-| **Blade weight** | 82–95 g | **49–62 g** (adjustable with counterweights) | −25 % to −40 % ✅ |
+| **Total weight of finished racket** | 170–200 g | **124–128 g** | about −32 % ✅ |
+| **Blade weight** | 82–95 g | **49–53 g** (no counterweight) | about −42 % ⚠️ below the target lower limit |
 | **Handle length** | 100 mm | **60–75 mm** (three interchangeable options) | −25 % to −40 % ✅ |
 | **Handle circumference** | 85–95 mm | **65–80 mm** (three interchangeable options) | −15 % to −25 % ✅ |
-| **CG position** | 46 %–50 % of total length | **48 %–58 % of total length** (adjustable with counterweights) | Marked rearward shift ✅ |
+| **CG position** | 46 %–50 % of total length | **about 51 % of total length** (no counterweight) | Slightly handle-biased ⚠️ |
 | **Blade thickness** | 5.5–7.0 mm | **5.68 mm** | Consistent with standard ✅ |
 | **Structure type** | 5–7 plies | **7 plies (5+2 external ALC)** | Mainstream structure ✅ |
 | **ITTF compliance** | ✅ | ✅ (wood >85 %, fibre layer <0.35 mm) | Compliant ✅ |
@@ -515,9 +499,9 @@ Phase 4: Final assembly and testing
 
 This design scheme integrates the research results of all three phases of the Octo project to form the final definitive scheme:
 
-1. **Core scheme**: 5+2 external ALC fibre composite structure (Limba + ALC + Kiri + Balsa + Kiri + ALC + Limba), total thickness 5.68 mm, blade weight 49–62 g, finished-racket total weight 124–137 g, a 30 %–38 % weight reduction relative to standard rackets.
+1. **Core scheme**: 5+2 external ALC fibre composite structure (Limba + ALC + Kiri + Balsa + Kiri + ALC + Limba), total thickness 5.68 mm, blade weight 49–53 g, finished-racket total weight 124–128 g, a weight reduction of about 32 % relative to standard rackets.
 
-2. **Handle system**: a modular interchangeable-handle design (S/M/L three options, circumference 65–80 mm, length 60–75 mm) + a counterweight chamber at the handle end (W0–W3 counterweight rods selectable), enabling individualised fitting and CG adjustment (48 %–58 % of total length).
+2. **Handle system**: a modular interchangeable-handle design (S/M/L three options, circumference 65–80 mm, length 60–75 mm) for individualised fitting; **the final product has no counterweight fitted**, and the CG lies at about 51 % of the total length.
 
 3. **Material selection**: all materials were selected on the basis of measured verification in the Phase-3 experiments—density (Experiment 1), hardness (Experiment 2), bending performance (Experiment 3), glue-uptake rate (Experiment 4), bonding strength (Experiment 5), fibre tension (Experiment 6), and process parameters (Experiment 7)—so the data are reliable.
 
