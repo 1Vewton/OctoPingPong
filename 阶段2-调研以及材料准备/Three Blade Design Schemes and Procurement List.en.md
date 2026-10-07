@@ -62,7 +62,6 @@ A usable lightweight blade is achieved with the simplest 3-ply symmetric structu
 > **Analysis**: the blade weight is markedly below the 55–70 g target, and the overall finished-racket total weight of 111–119 g lies within the 110–130 g target range. The blade weight can be increased in the following ways:
 > - Use a thicker Balsa core (6 mm → about +3 g)
 > - Choose Balsa at the high-density end (0.20 g/cm³ → about +4 g)
-> - Add a handle counterweight (see Scheme F in [Slim-Handle and Adjustable Handle Design Report](./Design%20Report%20on%20Slim-Handle%20and%20Adjustable%20Counterweight%20and%20Length%20Handles.en.md))
 
 ### 2.5 Feel Prediction
 
@@ -125,7 +124,7 @@ Although Kiri (density 0.23–0.40 g/cm³) is also a light, soft wood, its densi
 | Rubbers (ultra-light scheme, both sides) | 75 |
 | **Total weight of finished racket** | **118–125** |
 
-> **Analysis**: the blade weighs 43–50 g, still below the 55–70 g target but significantly improved over Scheme 1. The finished total weight of 118–125 g lies within the target range. A handle counterweight (+3–12 g) can adjust the blade to 55–60 g while also helping to shift the CG rearward.
+> **Analysis**: the blade weighs 43–50 g, still below the 55–70 g target but significantly improved over Scheme 1. The finished total weight of 118–125 g lies within the target range. Thickening the core or switching to a heavier hardwood handle (+2–5 g) can adjust the blade weight to 55–60 g.
 
 ### 3.5 Feel Prediction
 
@@ -247,7 +246,7 @@ This is the **most complex, highest-performance, and most expensive** of the thr
 - **Main scheme** → **Scheme 2** is recommended; the 5-ply all-wood structure achieves the best balance between performance and fabrication difficulty.
 - **Performance-oriented** → take on **Scheme 3**; the combination of ALC fibre + Balsa core has the potential to achieve the best performance.
 
-> **Note**: the blade weight of all three schemes is below the 55 g target and can be increased by 3–12 g with a handle counterweight (see Scheme F in [Slim-Handle and Adjustable Handle Design Report](./Design%20Report%20on%20Slim-Handle%20and%20Adjustable%20Counterweight%20and%20Length%20Handles.en.md)) to meet the target and achieve a rearward CG shift.
+> **Note**: the blade weight of all three schemes is below the 55 g target and can be increased by thickening the core or switching to a heavier hardwood handle (+2–5 g) to approach the target.
 
 ---
 
@@ -289,7 +288,7 @@ The following are all the wood materials required for the three schemes; **bold 
 | # | Item | Quantity | Estimated unit price | Use |
 | :-: | :--- | :-: | :------: | :--- |
 | 7 | **PVA glue (wood bonding)** | 1 bottle (250 ml) | 15–25 CNY | Interlayer bonding of the all-wood schemes (Schemes 1/2) |
-| 8 | **Epoxy resin glue (AB glue)** | 1 set (approx. 50 g) | 20–40 CNY | Fibre-layer bonding (Scheme 3); counterweight sealing |
+| 8 | **Epoxy resin glue (AB glue)** | 1 set (approx. 50 g) | 20–40 CNY | Fibre-layer bonding (Scheme 3) |
 | 9 | **Electronic balance (0.01 g precision)** | 1 | 40–80 CNY | Accurate weighing of each layer |
 | 10 | **Digital caliper (0.01 mm)** | 1 | 30–60 CNY | Accurate thickness measurement |
 | 11 | **G-clamps / clamps** | 4 | 10–20 CNY each | Pressurised fixing during bonding |
